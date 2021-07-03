@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .dev-color{
     color: #ffbb23;
@@ -40,4 +43,32 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-left: 30px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack-ex-item{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#baby-stack-ex-item{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, rgb(2, 11, 41));
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
 }
